@@ -1,16 +1,16 @@
 Projeto de realização do curso de kotlin com duração de 32h. Todo o projeto foi realizado apenas com os conhecimentos adquiridos no curso, algumas implementações a mais e boas práticas também, visando demonstrar o conteúdo ensinado no curso, baseado em um projeto final. Este projeto irá ser apresentado juntamente a este código no dia 03/09/2020, justamente por isso foi utilizado apenas o conteúdo ensinado no curso, deixando de usar jetpack libraries e inserindo alguns dados diretamente no SharedPreferences.
 
-Cellep: http://br.cellep.com
-Link do curso(estação hack cel.lep): http://br.cellep.com/estacaohack 
+- Cellep: http://br.cellep.com
+- Link do curso(estação hack cel.lep): http://br.cellep.com/estacaohack 
 
 Links utilitários:
 
-Colorhunt: https://colorhunt.co/
-Colors: https://coolors.co/
-Icons: https://icon-icons.com/pt/
-FlatIcon: https://www.flaticon.com/
-Material.io: https://material.io
-Material.io(Color Tool): https://material.io/resources/color/#!/ 
+- Colorhunt: https://colorhunt.co/
+- Colors: https://coolors.co/
+- Icons: https://icon-icons.com/pt/
+- FlatIcon: https://www.flaticon.com/
+- Material.io: https://material.io
+- Material.io(Color Tool): https://material.io/resources/color/#!/ 
 
 
 Estrutura do curso:
