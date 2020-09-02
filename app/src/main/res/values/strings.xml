@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ProjectCelLep</string>
+    <string name="mainActivity_default_text">Você ainda não realizou nenhum calculo</string>
+    <string name="splashScreen_contentDescription_image">Imagem da splash screen</string>
+    <string name="titleMainActivity">Home</string>
+    <string name="titleCalculoActivty">Calculo</string>
+</resources>
