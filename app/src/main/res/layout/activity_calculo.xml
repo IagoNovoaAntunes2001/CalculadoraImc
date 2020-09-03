@@ -6,4 +6,93 @@
     android:layout_height="match_parent"
     tools:context=".ui.CalculoActivity">
 
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textFieldPeso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="15dp"
+        android:hint="@string/activity_title_peso"
+        app:endIconContentDescription="@string/content_description_end_icon"
+        app:endIconDrawable="@drawable/ic_clear_black_24dp"
+        app:endIconMode="custom"
+        app:layout_constraintBottom_toTopOf="@+id/textFieldAltura"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:startIconContentDescription="@string/content_description_end_icon"
+        app:startIconDrawable="@drawable/ic_line_weight_black_24dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edtPeso"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textFieldAltura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp"
+        android:hint="@string/activity_title_altura"
+        app:endIconContentDescription="@string/content_description_end_icon"
+        app:endIconDrawable="@drawable/ic_clear_black_24dp"
+        app:endIconMode="custom"
+        app:layout_constraintBottom_toTopOf="@+id/btnCalcular"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textFieldPeso"
+        app:startIconContentDescription="@string/content_description_end_icon"
+        app:startIconDrawable="@drawable/ic_line_weight_black_24dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edtAltura"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnCalcular"
+        style="@style/Widget.MaterialComponents.Button.UnelevatedButton.Icon"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:background="@color/colorPrimaryDark"
+        android:backgroundTint="@color/colorAccent"
+        android:text="@string/activity_title_button"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        app:backgroundTint="?attr/colorPrimaryDark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textFieldAltura"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/textFieldAltura"
+        app:layout_constraintTop_toBottomOf="@+id/textFieldAltura" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:text="@string/activity_calcular_title"
+        android:textAlignment="viewStart"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textFieldPeso"
+        app:layout_constraintEnd_toEndOf="@+id/textFieldPeso"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/textFieldPeso"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -4,4 +4,12 @@
     <string name="splashScreen_contentDescription_image">Imagem da splash screen</string>
     <string name="titleMainActivity">Home</string>
     <string name="titleCalculoActivty">Calculo</string>
+    <string name="content_description_end_icon">Descrição do textField</string>
+    <string name="activity_title_altura">Altura</string>
+    <string name="activity_title_peso">Peso</string>
+    <string name="activity_title_button">Calcular</string>
+    <string name="activity_calcular_title">Insira os campos para efetuar o calculo</string>
+    <string name="title">Há algum campo vazio</string>
+    <string name="body_dialog">Por favor preencher o campo:</string>
+    <string name="accept">Ok</string>
 </resources>
