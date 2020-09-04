@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">ProjectCelLep</string>
     <string name="mainActivity_default_text">Você ainda não realizou nenhum calculo</string>
+    <string name="mainActivity_default_message">Clique no botão para começar</string>
+    <string name="mainActivity_default_message_withValues">Deseja outro calculo?</string>
     <string name="splashScreen_contentDescription_image">Imagem da splash screen</string>
     <string name="titleMainActivity">Home</string>
     <string name="titleCalculoActivty">Calculo</string>
@@ -8,8 +10,10 @@
     <string name="activity_title_altura">Altura</string>
     <string name="activity_title_peso">Peso</string>
     <string name="activity_title_button">Calcular</string>
-    <string name="activity_calcular_title">Insira os campos para efetuar o calculo</string>
+    <string name="activity_calcular_title">Insira os campos para efetuar o cálculo</string>
     <string name="title">Há algum campo vazio</string>
     <string name="body_dialog">Por favor preencher o campo:</string>
     <string name="accept">Ok</string>
+    <string name="preference_file_key">SHARED_PREFERENCES</string>
+    <string name="title_total">Total do último cálculo</string>
 </resources>

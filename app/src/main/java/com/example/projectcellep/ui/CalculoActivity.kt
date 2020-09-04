@@ -10,7 +10,6 @@ import com.example.projectcellep.R
 import kotlinx.android.synthetic.main.activity_calculo.*
 import kotlin.math.roundToLong
 
-
 class CalculoActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -44,9 +43,11 @@ class CalculoActivity : AppCompatActivity() {
         when {
             peso.isEmpty() -> {
                 showDialogFun("Peso")
+                textFieldPeso.requestFocus()
             }
             altura.isEmpty() -> {
                 showDialogFun("Altura")
+                textFieldAltura.requestFocus()
             }
             else -> {
                 makeCalculation()
